@@ -4,6 +4,7 @@
 //-----------------------------------------------------------------
 
 // OBJECT is the actual house built from the blueprint
+//You can build many houses (objects) from a single blueprint (class), and each house is a distinct entity with its own state (one house might have its lights on, while another has them off).
 
 
 /** The Blueprint : A Class */
@@ -40,3 +41,5 @@ let friendHouse = new House(2,false);
 console.log(myHouse.getDetails());
 myHouse.openFrontDoor();
 console.log(friendHouse.getDetails())
+
+//!In this example, House is the class. myHouse and friendsHouse are objects (or instances) of the House class. They share the same structure but have their own independent data.
