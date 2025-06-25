@@ -3,8 +3,7 @@
 //and capabilities and methods like - openFrontDoor(), turnOnLights()
 //-----------------------------------------------------------------
 
-// OBJECT is the actual house built from the blueprint
-//You can build many houses (objects) from a single blueprint (class), and each house is a distinct entity with its own state (one house might have its lights on, while another has them off).
+// OBJECT is the actual house built from the blueprint .You can build many houses (objects) from a single blueprint (class), and each house is a distinct entity with its own state (one house might have its lights on, while another has them off).
 
 
 /** The Blueprint : A Class */
